@@ -1,0 +1,4 @@
+set terminal png font "Verdana,14" size 1000, 1000
+set output "clusters.png" 
+set title "PLOT 8x8: 9clusters " font "Verdana,20" 
+plot [-1:8][-1:8] '1.txt'  using ($1-($3/4)):($2-($4/4)):($3/2):($4/2) with vectors lw 3 notitle, '2.txt'  using ($1-($3/4)):($2-($4/4)):($3/2):($4/2) with vectors lw 3 notitle, '3.txt'  using ($1-($3/4)):($2-($4/4)):($3/2):($4/2) with vectors lw 3 notitle, '4.txt'  using ($1-($3/4)):($2-($4/4)):($3/2):($4/2) with vectors lw 3 notitle, '5.txt'  using ($1-($3/4)):($2-($4/4)):($3/2):($4/2) with vectors lw 3 notitle, '6.txt'  using ($1-($3/4)):($2-($4/4)):($3/2):($4/2) with vectors lw 3 notitle, '7.txt'  using ($1-($3/4)):($2-($4/4)):($3/2):($4/2) with vectors lw 3 notitle, '8.txt'  using ($1-($3/4)):($2-($4/4)):($3/2):($4/2) with vectors lw 3 notitle, '9.txt'  using ($1-($3/4)):($2-($4/4)):($3/2):($4/2) with vectors lw 3 notitle
